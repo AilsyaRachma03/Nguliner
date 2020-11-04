@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Cambria';
+    background-color:#EDC988;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    background-color: #821752;
+    justify-content: space-around;
+    /* padding: 20px 0px; */
+    height: 60px;
+    color:  #EDC988;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+}
+nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+}
+
+/* Menu */
+nav ul li a{
+    color:  #EDC988;
+    text-decoration: solid;
+    font-size: 0.9em;
+}
+  /*kondisi diklik*/
+nav ul li a:active{
+    color:red;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+    nav ul #kata .layer #Form  {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 576px){
+    nav ul #kata .layer #Form {
+        width: 60%;
+    }
+}
+
+#kata{
+    width: 18%;
+    margin-top: -100px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute; 
+    /* top: 100px;
+    left: 550px;  */
+  }
+
+.layer{
+    width: 100%;
+}
+
+/* Isi */
+header {
+    border: 3px : #821752; 
+    border-style: inherit;
+    height: 30px;
+    margin-top: -4px;
+    background-color: #821752;
+    color:#EDC988;
+    text-align: center;
+  }
+legend{
+    font-size: xx-large;
+    text-align: center;
+    background-color: #821752;
+ }
+#kolom1{
+    width: 47% ;
+    margin-left: 23px;
+    height:430px;
+    float: left;
+    margin-top: 25px;
+    background-color: #821752;
+    background-image: url("ikon/k1.png");
+    color: white;
+    /* background-color: black; */
+}
+.geser{
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+#Kritik{
+      float: right;
+      margin-right: 215px;
+      width: 300px;
+      border-radius: 5px;
+  }
+#Saran{
+    float: right;
+    margin-right: 215px ;
+    width: 300px;
+    border-radius: 5px;
+}
+#Nama{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+#Email{
+    width: 250px;
+    height : 30px;
+    border-radius: 5px;
+}
+#kirim{
+      float: right;
+      margin-top: 10px;
+      justify-content: center;
+      margin-left: 50px;
+      margin-right: 256px ;
+      width: 70px;
+      height: 25px;
+      margin-right: 212px;
+      background-color: #EDC988;
+     
+  }
+
+
+#ts{
+    float: left;
+    margin-top: 0px;
+}
+
+#kolom2{
+    width: 47% ;
+    margin-left: 5px;
+    height:430px;
+    float: right;
+    margin-right: 23px;
+    margin-top: 25px;
+    background-color: #821752;
+    color: white;
+    background-image: url("ikon/k2.png"); 
+    /* background-size: 430px 500px;  */
+  }
+#foto1{
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#Alamat{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 400px;
+    height: 40px;
+}
+#foto2{
+    float: left;
+    margin-left: 30px;
+}
+#Nomor{
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 400px;
+    height: 40px;
+}
+#foto3{
+    float: left;
+    margin-left: 30px;
+}
+#Imel{
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 400px;
+    height: 40px;
+}
+footer {
+    text-align: center;
+    font-size: x-small;
+    margin-top: 500px;
+    margin-bottom: 50px;
+ }
+
+
