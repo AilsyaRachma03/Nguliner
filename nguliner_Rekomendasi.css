@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Cambria';
+    background-color:#EDC988;
+}
+
+/* Navbar */
+nav{
+  display: flex;
+  background-color: #821752;
+  justify-content: space-around;
+  /* padding: 20px 0px; */
+  height: 60px;
+  color:  #EDC988;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  width: 40%;
+  /* background-color:  #EDC988; */
+  justify-content: space-between;
+}
+nav .logo{
+  font-family: verdana;
+  letter-spacing: 2px;
+}
+
+/* Menu */
+nav ul li a{
+  color:  #EDC988;
+  text-decoration: solid;
+  font-size: 0.9em;
+}
+/*kondisi diklik*/
+nav ul li a:active{
+  color:red;
+}
+nav ul li a:hover{
+  color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+  nav ul #kata .layer #Form  {
+      width: 50%;
+  }
+}
+@media screen and (max-width: 576px){
+  nav ul #kata .layer #Form {
+      width: 60%;
+  }
+}
+
+#kata{
+    width: 18%;
+    margin-top: -100px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+
+  /* position: relative; */
+  /* margin-top: 100px; */
+  /* margin-left: 550px; */
+  /* align-items: center; */
+  /* background-image: url("ikon/lobs.png"); */
+  /*position: absolute;*/
+  /*top: 100px;
+  left: 550px;
+}*/
+
+.layer{
+  width: 100%;
+}
+
+#copyr{
+    text-align: center;
+    margin-top: 30pxpx;
+    font-size: x-small;
+  }
+#Rekomendasi{
+    margin: 40px 40px 40px 40px
+}
+
+#Suka{
+    margin-top: -2px;
+    margin-left: 270px;
+    width: 600px;
+    height: 300px;
+    font-size: large;
+    background-image: url("ikon/bg.png");
+}
+#legend{
+  text-align: center;
+}
+#rasa{
+  margin-left: 125px;
+  float: left;
+  font-size: medium;
+
+}
+
+#jenis{
+  margin-left: 40px;
+  margin-top: -38px;
+  float: left;
+  font-size: medium;
+}
+
+#rating{
+  margin-left: 40px;
+  margin-top: -38px;
+  float: left;
+  font-size: medium;
+}
+
+#tempat{
+  margin-left: 40px;
+  margin-top: 10px;
+  float: left;
+  font-size: medium;
+}
+
+#kirim{
+  margin-right: 100px;
+  margin-left: 80px;
+  margin-top: 50px;
+  width: 550px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #821752;
+  color: white;
+  font-size: medium;
+  font-family: 'Cambria';
+}
+
+#kirim:hover{
+  background-color: #EDC988;
+}
+

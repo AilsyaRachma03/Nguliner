@@ -91,6 +91,14 @@ nav ul li a:hover{
   margin-top: 0px; 
 } */
 
+#Beranda{
+  border: 3px : #821752; 
+  border-style: inherit;
+  height: 30px;
+  margin-top: -4px;
+  background-color: #821752;
+  color:#EDC988;
+}
 
 .search-box{
   position: absolute;
@@ -136,11 +144,47 @@ nav ul li a:hover{
   width: 0px;
 }
 
+.search-box{
+  margin-top : 70px;
+}
 #copyr_B{
   text-align: center;
-  margin-top: 700px;
+  margin-top: 350px;
+  margin-bottom: 50px;
   font-size: x-small;
 }
 #lup{
   color: #821752;
+}
+
+#Rekom{
+  border: 3px : #821752; 
+  border-style: inherit;
+  height: 30px;
+  margin-top:-5px;
+  background-color: #821752;
+  color:#EDC988;
+}
+
+#tanya{
+  float: left;
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: large;
+}
+
+.rekom{
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+  color:  #EDC988;
+  text-decoration: solid;
+  font-size: large;
+}
+
+.rekom:active{
+  color:red;
+}
+.rekom:hover{
+  color: white;
 }
