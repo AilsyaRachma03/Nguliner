@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'ambria';
+  background-color:#EDC988;
+}
+
+/* Navbar */
+nav{
+  display: flex;
+  background-color: #821752;
+  justify-content: space-around;
+  /* padding: 20px 0px; */
+  height: 60px;
+  color:  #EDC988;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  width: 40%;
+  /* background-color:  #EDC988; */
+  justify-content: space-between;
+}
+nav .logo{
+  font-family: verdana;
+  letter-spacing: 2px;
+}
+
+/* Menu */
+nav ul li a{
+  color:  #EDC988;
+  text-decoration: solid;
+  font-size: 0.9em;
+}
+/*kondisi diklik*/
+nav ul li a:active{
+  color:red;
+}
+nav ul li a:hover{
+  color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+  nav ul #kata .layer #Form  {
+      width: 50%;
+  }
+}
+@media screen and (max-width: 576px){
+  nav ul #kata .layer #Form {
+      width: 60%;
+  }
+}
+
+#kata{
+  width: 18%;
+  margin-top: -100px;
+  margin-left: 40%; 
+  align-items: center;
+  position: absolute; 
+  /* top: 100px;
+  left: 550px;  */
+}
+
+.layer{
+  width: 100%;
+}
+
+/*------------------------ Bagian Kategori ---------------------------------------------*/
+#Kategori{
+  border: 3px : #821752; 
+  border-style: inherit;
+  height: 30px;
+  margin-top: -4px;
+  background-color: #821752;
+  color:#EDC988;
+}
+
+#Kfoto{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  float: left;
+}
+
+#foto1{
+  
+}
+
+#foto2{
+  margin-left: 20px;
+}
+
+#foto3{
+  margin-left: 20px;
+}
+
+#foto4{
+  margin-left: 20px;
+}
+
+#foto5{
+  margin-left: 20px;
+}
+
+#foto6{
+  margin-top: 30px;
+}
+
+#foto7{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#foto8{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#copyr{
+  text-align: center;
+  color:black;
+  font-size: x-small;
+  margin-top: 700px;
+ }

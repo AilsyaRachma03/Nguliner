@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Cambria';
+    background-color:#EDC988;
+}
+
+/* Navbar */
+nav{
+  display: flex;
+  background-color: #821752;
+  justify-content: space-around;
+  /* padding: 20px 0px; */
+  height: 60px;
+  color:  #EDC988;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  width: 40%;
+  /* background-color:  #EDC988; */
+  justify-content: space-between;
+}
+nav .logo{
+  font-family: verdana;
+  letter-spacing: 2px;
+}
+
+/* Menu */
+nav ul li a{
+  color:  #EDC988;
+  text-decoration: solid;
+  font-size: 0.9em;
+}
+/*kondisi diklik*/
+nav ul li a:active{
+  color:red;
+}
+nav ul li a:hover{
+  color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+  nav ul #kata .layer #Form  {
+      width: 50%;
+  }
+}
+@media screen and (max-width: 576px){
+  nav ul #kata .layer #Form {
+      width: 60%;
+  }
+}
+
+#kata{
+    width: 18%;
+    margin-top: -100px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+
+  /* position: relative; */
+  /* margin-top: 100px; */
+  /* margin-left: 550px; */
+  /* align-items: center; */
+  /* background-image: url("ikon/lobs.png"); */
+  /*position: absolute;*/
+  /*top: 100px;
+  left: 550px;
+}*/
+
+.layer{
+  width: 100%;
+}
+
+/*------------------------ Bagian Beranda ---------------------------------------------*/
+/* .Main{
+  font-family: 'Times New Roman ' ;
+  font-size: 12px;
+  background-color:#f8efd4 ;
+  background-size: 1367px 700px;
+  background-repeat: no-repeat;
+  box-shadow: #000000;
+  margin-top: 0px; 
+} */
+
+
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:  #821752;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-box:hover>.search-txt{
+  width: 240px;
+  padding: 0 6px;
+  
+}
+.search-box:hover>.search-btn{
+  background: white;
+
+}
+.search-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color:white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+#copyr_B{
+  text-align: center;
+  margin-top: 700px;
+  font-size: x-small;
+}
+#lup{
+  color: #821752;
+}
