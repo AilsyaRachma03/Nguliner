@@ -1,0 +1,66 @@
+body{
+    font-family: 'Times New Roman ' ;
+    background-image: url(2.png);
+    background-repeat: no-repeat;
+}
+.header{
+    background-color: #821752;
+    padding: 20px 0;
+    font-size: 16px;
+}
+.menu, #menuu{
+    margin-left: 10px;
+    background-color: #F8EFD4;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+#menuu{
+    float: right;
+    margin-right: 10px;
+    margin-top: -5px;
+
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 500px;
+    max-height: 65px;
+}
+h4{
+    text-indent: 30%;
+    font-size: 20px;
+    margin-top: -2px;
+}
+.form{
+    margin-top: 30px;
+    background-image: url(maem2.jpg);
+    background-size: 600px 350px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    font-size: large;
+    text-align: justify;
+    margin-left: 350px;
+    margin-top: 30px;
+    border: thin;
+    box-shadow: black;
+    color: white;
+}
+.lupa, .daftar{
+    text-decoration: none;
+}
+.lupa{
+    color: white;
+}
+.link{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.daftar{
+    background-color: white;
+    padding: 2px;
+    color: black;
+}
+.copyr{
+    text-align: center;
+    margin-top: 20px;
+}
