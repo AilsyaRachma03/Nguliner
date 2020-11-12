@@ -142,11 +142,18 @@ legend{
       width: 70px;
       height: 25px;
       margin-right: 212px;
-      background-color: #EDC988;
-     
+      background-color: #EDC988;  
   }
 
+#kirim:hover{
+    background-color: #821752;
+    color: white;
+}
 
+#kirim:active{
+    background-color: green;
+    color: white;
+}
 #ts{
     float: left;
     margin-top: 0px;

@@ -138,6 +138,15 @@ legend{
      
   }
 
+#kirim:hover{
+    background-color: #821752;
+    color: white;
+}
+
+#kirim:active{
+    background-color: green;
+    color: white;
+}
 
 #ts{
     float: left;

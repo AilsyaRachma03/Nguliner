@@ -82,7 +82,7 @@ nav ul li a:hover{
     width : 630px;
     text-align: justify;
     margin-left: 350px;
-    margin-top: 40 px;
+    margin-top: 40px;
     border: thin;
     box-shadow: black;
     color: white;
@@ -90,6 +90,7 @@ nav ul li a:hover{
    
    #isi{
     margin-left: 50px;
+    margin-top: 20px;
    }
   #Nama{
     width: 250px;
@@ -117,6 +118,14 @@ nav ul li a:hover{
     background-color: green;
     width: 70px;
     height: 25px;
+   }
+   
+   #input:hover{
+    background-color: #EDC988;
+   }
+
+   #input:active{
+    background-color: #821752;
    }
    
 
@@ -169,6 +178,7 @@ nav ul li a:hover{
     color: white;
     font-size: x-small;
     margin-top: 20px;
+    margin-bottom: 20px;
     
    }
 

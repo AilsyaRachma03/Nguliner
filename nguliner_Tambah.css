@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Cambria';
+    background-color:#EDC988;
+}
+
+/* Navbar */
+nav{
+  display: flex;
+  background-color: #821752;
+  justify-content: space-around;
+  /* padding: 20px 0px; */
+  height: 60px;
+  color:  #EDC988;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  width: 40%;
+  /* background-color:  #EDC988; */
+  justify-content: space-between;
+}
+nav .logo{
+  font-family: verdana;
+  letter-spacing: 2px;
+}
+
+/* Menu */
+nav ul li a{
+  color:  #EDC988;
+  text-decoration: solid;
+  font-size: 0.9em;
+}
+/*kondisi diklik*/
+nav ul li a:active{
+  color:red;
+}
+nav ul li a:hover{
+  color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+  nav ul #kata .layer #atas #legend #one .mn #kolom1 #two .mk #Alamat #kolom2 #Copy_B {
+      width: 50%;}
+  
+}
+@media screen and (max-width: 576px){
+  nav ul #kata .layer #atas #legend #one .mn #kolom1 #two .mk #Alamat #kolom2 #Copy_B {
+      width: 60%;
+  }
+}
+
+#kata{
+    width: 18%;
+    margin-top: -100px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+
+  /* position: relative; */
+  /* margin-top: 100px; */
+  /* margin-left: 550px; */
+  /* align-items: center; */
+  /* background-image: url("ikon/lobs.png"); */
+  /*position: absolute;*/
+  /*top: 100px;
+  left: 550px;
+}*/
+
+.layer{
+  width: 100%;
+}
+
+/*------------------------ Bagian Beranda ---------------------------------------------*/
+
+#atas{
+  border: 3px : #821752; 
+  border-style: inherit;
+  height: 30px;
+  margin-top: -4px;
+  background-color: #821752;
+}
+
+legend{
+  font-size: xx-large;
+  text-align: center;
+  background-color: #821752;
+  margin-top: 5px;
+}
+
+#one{
+  font-size: large;
+  margin-top: 30px;
+}
+
+.mn{
+  float: left;
+  margin-left: 20px;
+}
+#kolom1{
+  width: 47% ;
+  margin-left: 23px;
+  height:600px;
+  float: left;
+  margin-top: 25px;
+  background-color: #821752;
+  background-image: url("ikon/tambah1.png");
+  color: white;
+
+  /* background-color: black; */
+}
+#two{
+  font-size: large ;
+  margin-top: 30px;
+}
+.mk{
+  float: left;
+  margin-left: 20px;
+ 
+}
+#Alamat{
+  float: right;
+  margin-right: 120px;
+  border-radius: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+#Nama{
+  width: 250px;
+  height:20px;
+  border-radius: 10px;
+}
+
+.rt1{
+  background-color: #821752;
+  
+}
+
+#menu{
+  background-color: #821752;
+}
+
+#harga{
+  background-color: #821752;
+}
+
+#tambah1{
+  width: 250px;
+  height: 25px;
+  float: right;
+  margin-right: 120px;
+  border-radius: 10px;
+  background-color: #821752;
+  color: white;
+}
+#kolom2{
+  width: 47% ;
+  margin-left: 5px;
+  height:600px;
+  float: right;
+  margin-right: 23px;
+  margin-top: 25px;
+  background-color: #821752;
+  color: white;
+  background-image: url("ikon/tambah2.png"); 
+  /* background-size: 430px 500px;  */
+}
+#des{
+  float: right;
+  margin-right: 90px;
+  border-radius: 10px;
+  width: 250px;
+  margin-top: -5px;
+}
+
+#makan{
+  width: 250px;
+  height:20px;
+  border-radius: 10px;
+}
+#harga1{
+  width: 250px;
+  height:20px;
+  border-radius: 10px;
+}
+#kategori{
+  width: 250px;
+  height:20px;
+  border-radius: 10px;
+}
+.ft1{
+  background-color: #821752;
+  
+}
+#tambah2{
+  width: 250px;
+  height: 25px;
+  float: right;
+  margin-right: 90px;
+  border-radius: 10px;
+  background-color: #821752;
+  color: white;
+}
+#copyr_B{
+  text-align: center;
+  margin-top: 650px;
+  margin-bottom: 50px;
+  font-size: x-small;
+}
+
+#tambah1:hover{
+  background-color: #EDC988;
+  color: #821752;
+}
+#tambah1:active{
+  background-color: aqua;
+  color: white;
+}
+
+#tambah2:hover{
+  background-color: #EDC988;
+  color: #821752;
+}
+
+#tambah2:active{
+  background-color: aqua;
+  color: white;
+}
+
+
+
+

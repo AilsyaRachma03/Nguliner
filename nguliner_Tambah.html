@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Tambah|Nguliner </title>
+    <meta charset="utf-8">
+    <meta name="viewport", content="widht=device-width", initial-scale1.0/>
+    <link rel="stylesheet" href="nguliner_Tambah.css">
+    </head>
+    <body>
+    <!-- Menu Navigasi -->
+          <nav>
+            <div class="logo">
+                <h3> Nguliner </h3>
+            </div>
+
+            <ul>
+              <li><a href="../ProjectWeb/nguliner_Beranda-login.html" class ="menu">Beranda</a></li> 
+                <li><a href="../ProjectWeb/nguliner_Kategori-login.html" class="menu">Kategori</a></li>
+                <li><a href="../ProjectWeb/nguliner_Kontak-login.html" class="menu">Kontak</a></li>
+                <li><a id="geser1" href=# class="menu">
+                  <img src="ikon/heart.png" height="20px" id="like"></a></li>
+                <li><a id="geser2" href="#" class="menu">
+                  <img src="ikon/user.png" height="20px" id="user" ></a></li>
+            </ul>
+        </nav>
+    <!-- Background atas -->
+        <div >
+            <img class="layer"src="ikon/layer.png">
+            <br>
+            <img id="kata" src="ikon/logo.png" >
+        </div>
+    <!-- Label Atas -->
+    <div id="atas">
+   </div>
+
+   <!-- Isi Form -->
+   <form name="tambah" method="post" action="">
+    <fieldset id="kolom1">
+      <legend>Tambah Menu Resto</legend>
+        <pre id="one">
+        <stan class="mn">Nama Resto</stan>       : <input type="text" placeholder="Nama Resto"  id="Nama" cols=36>
+        <br>
+        <stan class="mn">Alamat Resto</stan>     : <textarea cols="30" rows="5" id="Alamat">Isikan Alamat Anda... </textarea>
+        <br></br>
+        <br>
+        <stan class="mn">Masukan Foto 1</stan>   : <input type ="file" name="Foto/Gambar" class="rt1"/>
+        <br>   
+        <stan class="mn">Masukan Foto 2</stan>   : <input type ="file" name="Foto/Gambar" class="rt1"/>
+        <br> 
+        <stan class="mn">Masukan Foto 3</stan>   : <input type ="file" name="Foto/Gambar" class="rt1"/>
+        <br>           
+        <stan class="mn">Foto Dafar Menu</stan>  : <input type ="file" name="Foto/Gambar" id="menu"/>
+        <br>
+        <stan class="mn">Foto Daftar Harga</stan>: <input type ="file" name="Foto/Gambar" id="harga"/>
+        <br>
+        <input id="tambah1" type="submit" value="Tambah" widht="10px" >
+      </pre>
+   </fieldset>
+   <fieldset id="kolom2">
+    <legend>Tambah Makanan/Minuman </legend>
+        <pre id="two">
+        <stan class="mk">Nama Makanan/Minuman</stan>: <input type="text" placeholder="Nama Makanan"  id="makan" cols=36>
+        <br>
+        <stan class="mk">Harga</stan>               : <input type="text" placeholder="Harga"  id="harga1" cols=36>
+        <br>
+        <stan class="mk">Kategori</stan>            : <input type="text" placeholder="Kategori "  id="kategori" cols=36>
+        <br>
+        <stan class="mk">Deskripsi Makanan</stan>   : <textarea cols="30" rows="5" id="des">Isikan deskripsi makanan... </textarea>
+        <br></br>
+        <br>
+        <stan class="mk">Masukan Foto 1</stan>      : <input type ="file" name="Foto/Gambar" class="ft1"/>
+        <br>
+        <stan class="mk">Masukan Foto 2</stan>      : <input type ="file" name="Foto/Gambar" class="ft1"/>
+        <br> 
+        <stan class="mk">Masukan Foto 3</stan>      : <input type ="file" name="Foto/Gambar" class="ft1"/>
+        <br>
+        <input id="tambah2" type="submit" value="Tambah" widht="10px" >
+        </pre>
+    </fieldset>
+   </form>
+    <!-- Copyright -->
+        <div>
+            <p id="copyr_B"> &copy; 2020 Nguliner</p>
+        </div>
+    </body>
+</html>
+

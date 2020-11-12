@@ -44,6 +44,17 @@ nav ul li a:active{
 nav ul li a:hover{
   color: white;
 }
+.search-txt{
+  float: left;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+#lup{
+ margin-top: 9px;
+ margin-left: 5px;
+}
 
 /* Responsive break point */
 @media screen and (max-width: 768px){

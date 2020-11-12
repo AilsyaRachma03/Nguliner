@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.search-txt{
+  float: left;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+#lup{
+ margin-top: 9px;
+ margin-left: 5px;
+}
+
 body{
   font-family: 'Cambria';
   background-color:#EDC988;
@@ -17,6 +29,7 @@ body{
   float: right;
   margin-left: 150pxpx;
 }
+
 
 /* Navbar */
 nav{
