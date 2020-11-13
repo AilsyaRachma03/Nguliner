@@ -3,40 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Masuk|Nguliner</title>
     <link rel="stylesheet" href="nguliner_form_masuk.css">
 </head>
 <body>
-    <div>
-        <div class="header">
-            <div>
-                <a href="#" class="menu">Beranda</a></li>
-                <a href="#" class="menu">Kategori</a></li>
-                <a href="#"class="menu">Kontak</a></li>
-                <a href="#" id="menuu">Menu</a>
-            </div>
-    </div>
-    <img src="ikon/logo.png" alt="" class="logo">
-    <div>
+      <!-- Menu Navigasi -->
+      <nav>
+        <div class="logo">
+            <h3> Nguliner </h3>
+        </div>
+
+        <ul>
+           <li><a href="../ProjectWeb/nguliner_Beranda.html" class ="menu">Beranda</a></li> 
+            <li><a href="../ProjectWeb/nguliner_Kategori.html" class="menu">Kategori</a></li>
+            <li><a href="../ProjectWeb/nguliner_Kontak.html" class="menu">Kontak</a></li>
+            <li><a href="../ProjectWeb/nguliner_form_masuk.html" class="menu">Masuk</a></li>
+            <li><a id="geser" href="../ProjectWeb/nguliner_Daftar.html" class="menu">Daftar</a></li>
+        </ul>
+    </nav>
+          <!-- Background atas -->
+          <div >
+            <img class="layer"src="ikon/layer.png">
+            <br>
+            <img id="kata" src="ikon/logo.png" >
+        </div>
+
         <form>
             <fieldset class="form">
-                <h4>Masuk</h4>
+                <legend>Masuk</legend>
+                <div id="isi">
+                    <label for="Email">Alamat Email &nbsp; &nbsp;:&nbsp; </label> <br>
+                    <input type="text" placeholder="Alamat Email"  id="Email">
+                    <br>
+                    <label for="Password">Password &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:&nbsp; </label> <br>
+                    <input type="password" placeholder="Buat Password" id="Password"><br>
+                    <a href="#" class="lupa">Lupa Password ?</a>
+                </div>
                 <div>
-                    <label for="email">Alamat email: </label> <br>
-                    <input type="text" placeholder="Masukkan email anda"> <br>
-                    <label for="pass">Kata sandi: </label> <br>
-                    <input type="text" placeholder="Masukkan kata sandi"> <br>
-                    <a href="#" class="lupa">Lupa kata sandi ?</a>
+                    <input id="input" type="submit" value="Masuk"><br>
                 </div>
-                <div class="submit">
-                    <input type="submit" value="Masuk"> <br>
+                <p id="p4">Atau masuk dengan: </p><br>
+                <div id="link">
+                    <a id="fb"  href="https://facebook.com"><img src="ikon/facebook.png" target="blank" height="40px" widht="50px"></a>
+                    <a id="gg" href="https://google.com"><img src="ikon/gg.png" target="blank" height="40px" widht="50px"></a>
                 </div>
-                <p>Atau masuk dengan: </p><br>
-                <div class="link">
-                    <a href="https://id-id.facebook.com/"><img src="ikon/fb.png" target="blank" width="40px"></a>
-                    <a href="https://www.google.com/accounts/Login?hl=ID"><img src="ikon/google.png" target="blank" width="40px"></a>
-                </div>
-                <p>Belum punya akun ? <a href="nguliner_Daftar.html" class="daftar">Daftar</a></p>
+                <p id="p2">Belum punya akun ?</p>  <p><a id="p3" href="../ProjectWeb/nguliner_Daftar.html" class="daftar">Daftar</a></p>
             </fieldset>
         </form>
     </div>

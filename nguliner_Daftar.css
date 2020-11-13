@@ -90,7 +90,7 @@ nav ul li a:hover{
    
    #isi{
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 5px;
    }
   #Nama{
     width: 250px;
@@ -166,6 +166,8 @@ nav ul li a:hover{
      float: right;
      margin-right: 10px;
      margin-bottom: 30px;
+     color: white;
+     margin-top: -10px;
    }
    #p4{
      font-size: xx-small;
@@ -184,4 +186,12 @@ nav ul li a:hover{
 
    legend{
      margin-top: 30px;
+   }
+
+#p3:hover{
+    color: blue;
+   }
+
+#p3:active{
+    color: #821752;
    }

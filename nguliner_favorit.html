@@ -3,35 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorit Saya</title>
+    <title>Favorit Saya|Nguliner</title>
     <link rel="stylesheet" href="nguliner_favorit.css">
 </head>
 <body>
-    <div class="header">
-        <a href="nguliner_Beranda.html" class="menu">Beranda</a>
-        <a href="nguliner_Kategori.html" class="menu">Kategori</a>
-        <a href="nguliner_Kontak.html" class="menu">Kontak</a>
-        <input type="text" class="cari" placeholder="Cari Restoran atau Makanan" width="50px" >
-        <a href="#" class="profil"><img src="ikon/user.png" alt="" width="30px"></a>
-        <a href="nguliner_favorit.html" class="favorit"> <img src="ikon/heart.png" alt="" width="30px"></a>
-        <a href="" class="lup"><img src="ikon/lup.png" alt="" width="20px"></a>
+     <!-- Menu Navigasi -->
+     <nav>
+        <div class="logo">
+            <h3>Nguliner</h3>
+        </div>
 
+        <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="cari makanan atau minuman">
+            <a class="search-btn" href="#">
+        <img id="lup"src="ikon/lup.png"  height="20px" widht="2px"></a>
+        </div>
+
+        <ul>
+        <li><a href="../ProjectWeb/nguliner_Beranda-login.html" class ="menu">Beranda</a></li> 
+            <li><a href="../ProjectWeb/nguliner_Kategori-login.html" class="menu">Kategori</a></li>
+            <li><a href="../ProjectWeb/nguliner_Kontak-login.html" class="menu">Kontak</a></li>
+            <li><a id="geser1" href="../ProjectWeb/nguliner_favorit.html" class="menu">
+                <img src="ikon/heart.png" height="20px" id="like"></a></li>
+            <li><a id="geser2" href="#" class="menu">
+                <img src="ikon/user.png" height="20px" id="user" ></a></li>
+        </ul>
+    </nav>
+<!-- Background atas -->
+    <div >
+        <img class="layer"src="ikon/layer.png">
+        <br>
+        <img id="kata" src="ikon/logo.png" >
     </div>
-    <br> <br>
+   
     <div>
-        <a href=""><img src="ikon/logo.png" alt="" class="logo"></a>
-    </div>
-    <div>
-        <h3>Favorit</h3>
+        <h3 id="fav">Favorit</h3>
     </div>
     <div>
         <div class="baris1">
             <img src="ikon/Seblak bakso_.png" alt="" width="15%" class="list">
-            <img src="ikon/rawon daging_.pnglt="" width="15%" class="list">
-
+            <img src="ikon/rawon daging_.png" width="15%" class="list">
         </div>
     </div>
-
+    <div>
+        <p id="copyr"> &copy; 2020 Nguliner</p>
+    </div>
     
 </body>
 </html>

@@ -1,29 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    font-family: 'Times New Roman ' ;
-    background-image: url(ikon/2.png);
-    background-repeat: no-repeat;
+    font-family: 'Cambria';
+    background-color:black;
 }
-.header{
+
+/* Navbar */
+nav{
+    display: flex;
     background-color: #821752;
-    padding: 20px 0;
-    font-size: 16px;
+    justify-content: space-around;
+    /* padding: 20px 0px; */
+    height: 60px;
+    color:  #EDC988;
+    align-items: center;
 }
-.menu, #menuu{
-    margin-left: 10px;
-    background-color: #F8EFD4;
-    padding: 5px;
-    text-decoration: none;
-    color: black;
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
 }
-#menuu{
-    float: right;
-    margin-right: 10px;
-    margin-top: -5px;
+nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
 }
-.logo{
-    margin-top: 20px;
-    margin-left: 500px;
-    max-height: 65px;
+
+/* Menu */
+nav ul li a{
+    color:  #EDC988;
+    text-decoration: solid;
+    font-size: 0.9em;
+}
+  /*kondisi diklik*/
+nav ul li a:active{
+    color:red;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+    nav ul #kata .layer #Form  {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 576px){
+    nav ul #kata .layer #Form {
+        width: 60%;
+    }
+}
+
+#kata{
+    width: 18%;
+    margin-top: -100px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute; 
+    /* top: 100px;
+    left: 550px;  */
+  }
+
+.layer{
+    width: 100%;
 }
 h4{
     text-indent: 30%;
@@ -33,16 +78,60 @@ h4{
 .form{
     margin-top: 30px;
     background-image: url(ikon/maem2.jpg);
-    background-size: 600px 350px;
-    background-position: left top;
+    background-size: 670px 300px;
+    background-position: left top ;
     background-repeat: no-repeat;
     font-size: large;
+    height : 363px;
+    width : 630px;
     text-align: justify;
     margin-left: 350px;
-    margin-top: 30px;
+    margin-top: 40px;
     border: thin;
     box-shadow: black;
     color: white;
+}
+#isi{
+    margin-left: 50px;
+    margin-top: 20px;
+   }
+#Email{
+    width: 250px;
+    height : 20px;
+    border-radius: 5px; 
+  }
+#Password{
+    width: 250px;
+    height : 20px;
+    border-radius: 5px; 
+  }
+
+#input{
+    margin-left: 295px;
+    margin-top: 9px;
+    background-color: blue;
+    width: 70px;
+    height: 25px;
+   }
+#p4{
+    font-size: xx-small;
+    text-align: center;
+    margin-left: 28px;
+}
+#link{
+    margin-top: 10px;
+    margin-left: 265px;
+    font-size: small;
+  }
+#fb{
+    height: 100%;
+    width: auto;
+    margin-right: 40px;
+}
+#gugel{
+    height: 100%;
+    width: auto;
+    margin-left: 5px;
 }
 .lupa, .daftar{
     text-decoration: none;
@@ -54,12 +143,37 @@ h4{
     margin-top: -20px;
     margin-left: 10px;
 }
-.daftar{
-    background-color: white;
-    padding: 2px;
-    color: black;
+#p2{
+    font-size: x-small;
+    margin-left: 10px;
+  }
+#p3{
+    font-size: x-small;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: -10px;
+}
+#input:hover{
+    background-color: #EDC988;
+   }
+
+#input:active{
+    background-color: #821752;
 }
 .copyr{
     text-align: center;
+    color: white;
+    font-size: x-small;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+#p3:hover{
+    color: blue;
+   }
+
+#p3:active{
+    color: #821752;
+   }

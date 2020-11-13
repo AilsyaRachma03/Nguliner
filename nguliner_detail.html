@@ -7,20 +7,72 @@
     <link rel="stylesheet" href="nguliner_detail.css">
 </head>
 <body>
-    <div class="header">
-        <a href="nguliner_Beranda.html" class="menu">Beranda</a>
-        <a href="nguliner_Kategori.html" class="menu">Kategori</a>
-        <a href="nguliner_Kontak.html" class="menu">Kontak</a>
-        <input type="text" class="cari" placeholder="Cari Restoran atau Makanan">
-        <a href="#" class="profil"><img src="ikon/user.png" alt="" width="30px"></a>
-        <a href="nguliner_favorit.html" class="favorit"> <img src="ikon/heart.png" alt="" width="30px"></a>
-        <a href="" class="lup"><img src="ikon/lup.png" alt="" width="20px"></a>
+     <!-- Menu Navigasi -->
+     <nav>
+        <div class="logo">
+            <h3> Nguliner </h3>
+        </div>
+        <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="cari makanan atau minuman">
+            <a class="search-btn" href="#">
+        <img id="lup"src="ikon/lup.png"  height="20px" widht="2px">
+        <!-- <i class="fas fa-search"></i> -->
+            </a>
+        </div>
+        <ul>
+        <li><a href="../ProjectWeb/nguliner_Beranda-login.html" class ="menu">Beranda</a></li> 
+            <li><a href="../ProjectWeb/nguliner_Kategori-login.html" class="menu">Kategori</a></li>
+            <li><a href="../ProjectWeb/nguliner_Kontak-login.html" class="menu">Kontak</a></li>
+            <li><a id="geser1" href="../ProjectWeb/nguliner_favorit.html"  class="menu">
+                <img src="ikon/heart.png" height="20px" id="like"></a></li>
+            <li><a id="geser2" href="#" class="menu">
+                <img src="ikon/user.png" height="20px" id="user" ></a></li>
+        </ul>
+    </nav>
+<!-- Background atas -->
+    <div >
+        <img class="layer"src="ikon/layer.png">
+        <br>
+        <img id="kata" src="ikon/logo.png" >
     </div>
-    <br> <br>
-    <div>
-        <a href=""><img src="ikon/logo.png" alt="" class="logo"></a>
+<!-- Label Atas -->
+    <div id="atas">
     </div>
-    <h3 class="detail">Detail Restoran</h3>
+<!-- SLide foto warung -->
+    <fieldset id="slideft"> 
+        <h3 id="ftresto">Foto Kami</h3>
+        <div id="slider">
+            <figure>
+                <img class="slide" src="ikon/preview1.jpg" widht="20%" height="350px" >
+                <img class="slide" src="ikon/preview2.jpg" widht="20%" height="350px" >
+            </figure>
+        </div>
+    </fieldset>
+<!-- Peta Map -->
+    <fieldset id="map"> 
+        <h3 id="ftresto">Lokasi Kami</h3>
+        <img id="fotmap" src="ikon/map.jpg" height="250px" >
+    </fieldset>
+<!-- Alamat dan ulasan -->
+    <fieldset id="slideulasan"> 
+        <h3 id="mboh">Tentang Kami</h3>
+    </fieldset>
+<!-- menu lain -->
+    <fieldset id="ft"> 
+        <h3 id="ftresto">Teratas dari Kami</h3>
+        <div id="geserin">
+            <a href=""><img src="ikon/Sate kambing_.png" alt="" width="100px" class="list"></a>
+            <a href=""><img src="ikon/soto banjar_.png" alt="" width="100px" class="list"></a>
+            <a href=""><img src="ikon/gado2_.png" alt="" width="100px" class="list"></a>
+            <a href=""><img src="ikon/mie aceh_.png" alt="" width="100px" class="list"></a>
+        </div>
+    </fieldset>
+<!-- footer komen -->
+    <fieldset id="fotkomen"> 
+        <h3 id="komen">Beri Kami Komentar</h3>
+    </fieldset>
+
+    <!-- <h3 class="detail">Detail Restoran</h3>
     <div class="header1">
         <h3 id="namawarung">Aneka Lontong</h3>
         <h3 id="lokasi" >Lokasi</h3>
@@ -73,8 +125,9 @@
                 </tr>
             </table>
         </div>
-        
-
+    </div> -->
+    <div>
+        <p id="copyr"> &copy; 2020 Nguliner</p>
     </div>
 </body>
 </html>
