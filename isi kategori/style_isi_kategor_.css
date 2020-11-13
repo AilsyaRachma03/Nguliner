@@ -19,13 +19,22 @@ body{
     margin-left: 10px;   
 }
 .cari{
-    padding: 3px;
-    margin-left: 300px;
+    padding: 5px;
+    margin-left: 270px;
+    border-radius: 20px;
+    width: 250px;
 }
+
 .favorit, .profil{
     float: right;
     margin-right: 10px;
 }
+.lup{
+    float: right;
+    margin-right: 380px;
+    margin-top: 5px;
+}
+
 .logo{
     max-height: 65px;
     margin-left: 520px;
@@ -40,6 +49,8 @@ body{
 .kategori {
     margin-top: 10px;
     background-color: #EDC988;
+    color: white;
+    font-style: italic;
 }
 .tradi{
     background-color:white;
