@@ -1,0 +1,65 @@
+body{
+    background-image: url(ikon/2.png);
+    background-repeat: no-repeat;
+    background-color: #F8EFD4;
+}
+.header{
+    background-color: #821752;
+    padding: 20px;
+    font-size: 16px;
+    margin-left: -20px;
+    margin-top: -10px;
+    margin-right: -20px;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    background-color: #EDC988;
+    padding: 5px;
+    margin-left: 10px;   
+}
+.cari{
+    padding: 5px;
+    margin-left: 270px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.favorit, .profil{
+    float: right;
+    margin-right: 10px;
+}
+.lup{
+    float: right;
+    margin-right: 380px;
+    margin-top: 5px;
+}
+
+.logo{
+    max-height: 65px;
+    margin-left: 520px;
+    margin-top: -20px;
+}
+.kategori, .tradi{
+    text-align: center;
+    font-size: 16px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.kategori {
+    margin-top: 10px;
+    background-color: #EDC988;
+    color: white;
+    font-style: italic;
+}
+.tradi{
+    background-color:white;
+    margin-top: -15px;
+    font-style: italic;
+}
+.list{
+    margin-left: 50px;
+}
+.baris2, .baris3{
+    margin-top: 15px;
+}
