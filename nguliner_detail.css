@@ -83,7 +83,7 @@
     }
   }
   
-  #kata{
+#kata{
     width: 18%;
     margin-top: -100px;
     margin-left: 40%; 
@@ -95,6 +95,30 @@
     width: 100%;
     margin-top: 0px;
   }
+
+
+  /* Sudah detail */
+
+#mamam{
+    border-color:#821752;
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    background-color:#f8efd4 ;   
+}
+
+#maem{
+    background-color: #821752;
+    color: white;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.fotoo{
+    margin-top: 10px;
+    margin-left: 100px;
+}
 
 #geser1{
     margin-top: 50px;
@@ -114,10 +138,10 @@
 
 #slideft{
     border-color:#821752;
-    width: 665px;
-    height: 400px;
-    float: left;
-    margin-left: 10px;
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-right: 10px;
     background-color:#f8efd4 ;
     
 }
@@ -163,7 +187,7 @@
 
 #slider figure{
     position: relative;
-    width: 500%;
+    width: 400%;
     margin: 0;
     left: 0;
     text-align: left;
@@ -186,15 +210,15 @@
 
 #map{
     border-color: #821752;
-    width: 645px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     float: right; 
     margin-right: 10px;  
     background-color: #f8efd4;
 }
 
 #fotmap{
-    margin-left: 130px;
+    margin-left:38px;
     margin-top: 20px;
 }
 
@@ -292,12 +316,13 @@
     font-size: x-small;
    }
 
+   /* ini masukin komen */
 #fotkomen{
     border-color: #821752;
-    width: 1325px;
+    width: 795px;
     height: 200px;
-    float: left;
-    margin-left: 10px;
+    float: right;
+    margin-right: 10px;
     margin-top: 10px;
     background-color: #f8efd4;
 }
@@ -307,4 +332,66 @@
     color: white;
     text-align: center;
     text-overflow: ellipsis; 
+}
+.komenorang{
+    border-color: #821752;
+    width: 700px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left:30px
+}
+
+.orangkomen{
+    margin-top: 2px;
+    margin-left:15px;
+}
+/* Ini komen */
+#omen{
+border-color: #821752;
+    width: 515px;
+    height: 200px;
+    float: left; 
+    margin-left: 10px;   
+    background-color: #f8efd4;
+    margin-top: 10px;
+}
+#kt{
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#koment{
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #821752;
+    color: white;
+}
+
+#kirim{
+    float: right;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 50px;
+    width: 100px;
+    height: 25px;
+    margin-right: 110px;
+    background-color: #821752;
+    color: white;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: #EDC988;
+   
+}
+
+#kirim:hover{
+  background-color: red;
+  color: white;
+}
+
+#kirim:active{
+  background-color: green;
+  color: white;
 }

@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Makanan Tradisional</title>
+    <title>Restoran|Nguliner</title>
     <link rel="stylesheet" href="nguliner_isi_kategori_restoran.css">
 </head>
 <body>
-    <div class="header">
-        <a href="nguliner_Beranda.html" class="menu">Beranda</a>
-        <a href="nguliner_Kategori.html" class="menu">Kategori</a>
-        <a href="nguliner_Kontak.html" class="menu">Kontak</a>
-        <input type="text" class="cari" placeholder="Cari Restoran atau Makanan">
-        <a href="#" class="profil"><img src="user.png" alt="" width="30px"></a>
-        <a href="nguliner_favorit.html" class="favorit"> <img src="heart.png" alt="" width="30px"></a>
-        <a href="" class="lup"><img src="lup.png" alt="" width="20px"></a>
+     <!-- Menu Navigasi -->
+     <nav>
+        <div class="logo">
+            <h3> Nguliner </h3>
+        </div>
+        <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="cari makanan atau minuman">
+            <a class="search-btn" href="#">
+            <img id="lup"src="ikon/lup.png"  height="20px" widht="2px"></a>
+        </div>
 
+        <ul>
+        <li><a href="../ProjectWeb/nguliner_Beranda-login.html" class ="menu">Beranda</a></li> 
+            <li><a href="../ProjectWeb/nguliner_Kategori-login.html" class="menu">Kategori</a></li>
+            <li><a href="../ProjectWeb/nguliner_Kontak-login.html" class="menu">Kontak</a></li>
+            <li><a id="geser1" href="../ProjectWeb/nguliner_favorit.html"  class="menu">
+                <img src="ikon/heart.png" height="20px" id="like"></a></li>
+            <li><a id="geser2" href="#" class="menu">
+                <img src="ikon/user.png" height="20px" id="user" ></a></li>
+        </ul>
+    </nav>
+<!-- Background atas -->
+    <div >
+        <img class="layer"src="ikon/layer.png">
+        <br>
+        <img id="kata" src="ikon/logo.png" >
     </div>
-    <br> <br>
-    <div>
-        <a href=""><img src="ikon/logo.png"" class="logo"></a>
-        <!-- <img src="logo.png" alt="" class="logo"> -->
-    </div>
+<!-- Label -->
     <div>
         <h3 class="kategori">Kategori</h3>
     </div>
     <div>
-        <h3 class="tradi">Restoran</h3>
+        <h3 class="resto">Restoran</h3>
     </div>
     <div>
         <div class="baris1">
@@ -36,6 +49,9 @@
             <a href=""><img src="ikon/resto_sushi.png" alt="" width="15%" class="list"></a>
         </div>
     </div>
+        <div>
+            <p id="copyr"> &copy; 2020 Nguliner</p>
+        </div>
     
 </body>
 </html>
