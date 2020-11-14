@@ -118,6 +118,7 @@ nav ul li a:hover{
     background-color: green;
     width: 70px;
     height: 25px;
+    color: white;
    }
    
    #input:hover{
@@ -195,3 +196,8 @@ nav ul li a:hover{
 #p3:active{
     color: #821752;
    }
+
+#tulisan{
+  color: white;
+  font-size: medium;
+}

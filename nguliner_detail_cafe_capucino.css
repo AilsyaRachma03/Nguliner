@@ -237,6 +237,24 @@
     text-align: center;
     text-overflow: ellipsis; 
 }
+h4{
+    background-color: #EDC988;
+    color: #821752;
+    margin-bottom: 5px;
+    text-rendering: geometricPrecision;
+}
+
+tr #mat p{
+    margin-left: 10px;
+}
+
+tr #warung p{
+    margin-left: 10px;
+}
+
+#jad{
+    margin-left: 10px;
+}
 #ft{
     border-color: #821752;
     width: 515px;
@@ -309,12 +327,7 @@
     margin-right: 10px;
     margin-left:10px;
 }
-#copyr{
-    text-align: center;
-    margin-top: 1150px;
-    margin-bottom: 20px;
-    font-size: x-small;
-   }
+
 
    /* ini masukin komen */
 #fotkomen{
@@ -341,10 +354,7 @@
     margin-left:30px
 }
 
-.orangkomen{
-    margin-top: 2px;
-    margin-left:15px;
-}
+
 /* Ini komen */
 #omen{
 border-color: #821752;
@@ -354,6 +364,14 @@ border-color: #821752;
     margin-left: 10px;   
     background-color: #f8efd4;
     margin-top: 10px;
+}
+.orangkomen{
+    margin-top: 2px;
+    margin-left:15px;
+    float: left;
+}
+.coment{
+    margin-left: 10px;
 }
 #kt{
     float: left;
@@ -395,3 +413,10 @@ border-color: #821752;
   background-color: green;
   color: white;
 }
+
+#copyr{
+    text-align: center;
+    margin-top: 1150px;
+    margin-bottom: 20px;
+    font-size: x-small;
+   }
