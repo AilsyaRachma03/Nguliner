@@ -3,34 +3,10 @@
   padding: 0;
 }
 
-.search-txt{
-  float: left;
-  width: 200px;
-  height: 20px;
-  border-radius: 10px;
-  margin-top: 7px;
-}
-#lup{
- margin-top: 9px;
- margin-left: 5px;
- 
-}
-
 body{
   font-family: 'Cambria';
   background-color:#EDC988;
 }
-
-
-#like{
-  float: right;
-}
-
-#user{
-  float: right;
-  margin-left: 150pxpx;
-}
-
 
 /* Navbar */
 nav{
@@ -68,15 +44,26 @@ nav ul li a:active{
 nav ul li a:hover{
   color: white;
 }
+.search-txt{
+  float: left;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+#lup{
+ margin-top: 9px;
+ margin-left: 5px;
+}
 
 /* Responsive break point */
 @media screen and (max-width: 768px){
-  nav ul #kata .layer #Form  {
+  .body {
       width: 50%;
   }
 }
 @media screen and (max-width: 576px){
-  nav ul #kata .layer #Form {
+  .body {
       width: 60%;
   }
 }
@@ -97,7 +84,7 @@ nav ul li a:hover{
 
 /*------------------------ Bagian Kategori ---------------------------------------------*/
 #Kategori{
-  border: 3px : #821752; 
+  border: 3px #821752; 
   border-style: inherit;
   height: 30px;
   margin-top: -5px;
@@ -113,6 +100,7 @@ nav ul li a:hover{
 }
 
 #foto1{
+  margin-left: 20px;
 }
 
 #foto2{
@@ -129,9 +117,11 @@ nav ul li a:hover{
 
 #foto5{
   margin-left: 20px;
+
 }
 
 #foto6{
+  margin-left: 20px;
   margin-top: 30px;
 }
 
@@ -144,10 +134,12 @@ nav ul li a:hover{
   margin-left: 20px;
   margin-top: 30px;
 }
+
 #foto9{
   margin-left: 20px;
   margin-top: 30px;
 }
+
 #copyr{
   text-align: center;
   margin-top: 550px;
@@ -156,7 +148,7 @@ nav ul li a:hover{
  }
 
  #Rekom{
-  border: 3px : #821752; 
+  border: 3px #821752; 
   border-style: inherit;
   height: 30px;
   margin-top:-5px;

@@ -48,12 +48,12 @@ nav ul li a:hover{
 
 /* Responsive break point */
 @media screen and (max-width: 768px){
-  nav ul #kata .layer #atas #legend #one .mn #kolom1 #two .mk #Alamat #kolom2 #Copy_B {
+  .body {
       width: 50%;}
   
 }
 @media screen and (max-width: 576px){
-  nav ul #kata .layer #atas #legend #one .mn #kolom1 #two .mk #Alamat #kolom2 #Copy_B {
+  .body {
       width: 60%;
   }
 }
@@ -83,7 +83,7 @@ nav ul li a:hover{
 /*------------------------ Bagian Beranda ---------------------------------------------*/
 
 #atas{
-  border: 3px : #821752; 
+  border: 3px #821752; 
   border-style: inherit;
   height: 30px;
   margin-top: -4px;

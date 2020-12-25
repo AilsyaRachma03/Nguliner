@@ -47,12 +47,12 @@ nav ul li a:hover{
 
 /* Responsive break point */
 @media screen and (max-width: 768px){
-    nav ul #kata .layer #Form  {
+    .body  {
         width: 50%;
     }
 }
 @media screen and (max-width: 576px){
-    nav ul #kata .layer #Form {
+    .body {
         width: 60%;
     }
 }
@@ -73,7 +73,7 @@ nav ul li a:hover{
 
 /* Isi */
 header {
-    border: 3px : #821752; 
+    border: 3px #821752; 
     border-style: inherit;
     height: 30px;
     margin-top: -4px;
@@ -89,7 +89,7 @@ legend{
 #kolom1{
     width: 47% ;
     margin-left: 23px;
-    height:430px;
+    height:440px;
     float: left;
     margin-top: 25px;
     background-color: #821752;
@@ -104,20 +104,24 @@ legend{
 
 #Kritik{
       float: right;
-      margin-right: 215px;
+      margin-right: 202px;
       width: 300px;
       border-radius: 5px;
+      margin-top:0px;
+ 
   }
 #Saran{
     float: right;
-    margin-right: 215px ;
+    margin-right: 202px;
     width: 300px;
     border-radius: 5px;
+    margin-top:0px;
 }
 #Nama{
     width: 250px;
     height: 30px;
     border-radius: 5px;
+    margin-top: -10px;
 
 }
 #Email{
@@ -156,7 +160,7 @@ legend{
 #kolom2{
     width: 47% ;
     margin-left: 5px;
-    height:430px;
+    height:440px;
     float: right;
     margin-right: 23px;
     margin-top: 25px;

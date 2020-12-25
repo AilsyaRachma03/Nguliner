@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport", content="widht=device-width", initial-scale1.0/>
+    <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="LoginSignin.css">
+    <title>Masuk atau Daftar </title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="forms-container">
+          <div class="signin-signup">
+<!-- Form Satu -->
+
+            <form action="" name='Masuk' method="post" class="sign-in-form">
+              <h2 class="tittle">Masuk</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" id='user'>
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" id='pw'>
+              </div>
+                          
+              <div>
+                <button type="button" onClick="terimainput()" value="Masuk" class="btn solid" > 
+                <a href="nguliner_Beranda-login.html" id="tulisan">Masuk</a>
+                </button>
+              </div> 
+
+              <p class="social-text">Atau Masuk dengan Sosial Media</p>
+              <div class="social-media">
+                <a href="https://web.facebook.com/" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://mail.google.com/" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </form>
+            <br></br>
+            <nav>
+              <ul>
+                <li><a href="index.html" class ="menu"><b>Beranda</b></a></li> 
+                <li><a href="nguliner_Kategori.html" class="menu"><b>Kategori</b></a></li>
+                <li><a href="nguliner_Kontak.html" class="menu"><b>Kontak</b></a></li>
+              </ul>
+              </nav>
+            <!-- <script type="text/javascript">
+                function terimainput(){
+                      var a=document.getElementById('user').value;
+                      var b=document.getElementById('pw').value;
+                      alert("Username :" +a+"\nPassword :" +b);
+                  }
+            </script> -->
+<!-- Form Dua -->
+            <form action="" class="sign-up-form">
+              <h2 class="tittle">Daftar</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" id="username">
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Email" id="email">
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" id="pssw">
+              </div>
+              <div>
+                <button type="button" onClick="terima()"value="Daftar" class="btn solid">
+                  <a href="MasukDaftar.html" id="tulisan">Daftar</a>
+                </button>
+              </div>
+
+              <p class="social-text">Atau Daftar dengan Sosial Media  </p>
+              <div class="social-media">
+                <a href="https://web.facebook.com/" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://mail.google.com/" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </form>
+
+            <script type="text/javascript">
+              function terima(){
+                    alert("Klik Oke untuk Masuk");
+                }
+            </script>
+          </div>
+        </div>
+<!-- Geser-Geser -->
+        <div class="panels-container">
+          <div class="panel left-panel">
+            <div class="content">
+              <h3>Apakah ingin bergabung dengan Kami?</h3>  
+              <p>"Makanan bukan dinilai dari harganya melainkan cita rasa dan khasnya." </p>
+                <button class="btn transparent" id="sign-up-btn">Daftar</button>
+            </div>
+
+            <img src="ikon/sayur.png" class="image" alt="">
+        </div>
+
+        <div class="panel right-panel">
+            <div class="content">
+              <h3>Sudah Bergabung dengan Kami?</h3>  
+              <p>"Beda Tempat Lain Rasa yang pasti tetap Selera."</p>
+                <button class="btn transparent" id="sign-in-btn">Masuk</button>
+            </div>
+            <img src="ikon/ikan.png" class="image" alt="">
+        </div>
+        </div>
+      </div>
+      <script src="LS.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+          <form action="" name='Masuk' method="post" class="sign-in-form">
+            <h2 class="tittle">Masuk</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" id='user'>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" id='pw'>
+            </div>
+            
+          <div>
+              <button type="button" onClick="terimainput()" value="Masuk" class="btn solid" > 
+              <a href="nguliner_Beranda-login.html" id="tulisan">Masuk</a>
+              </button>
+          </div> 
+
+            <p class="social-text">Atau Masuk dengan Sosial Media</p>
+            <div class="social-media">
+              <a href="https://web.facebook.com/" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://mail.google.com/" class="social-icon">
+                  <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </form> -->
+
+<!-- Form Dua -->
+        <!-- <form action="" class="sign-up-form">
+          <h2 class="tittle">Daftar</h2>
+
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" id="username">
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="text" placeholder="Email" id="email">
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="pssw">
+          </div>
+
+          <div>
+            <button type="button" onClick="terima()"value="Daftar" class="btn solid">
+              <a href="MasukDaftar.html" id="tulisan">Daftar</a>
+            </button>
+          </div>
+
+          <p class="social-text">Atau Daftar dengan Sosial Media  </p>
+          <div class="social-media">
+            <a href="https://web.facebook.com/" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://mail.google.com/" class="social-icon">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </form>
+
+
+          <script type="text/javascript">
+              function terima(){
+                    alert("Klik Oke untuk Masuk");
+                }
+          </script> -->
+<!-- Geser-Geser -->
+        <!-- <div class="panels-container">
+          <div class="panel left-panel">
+            <div class="content">
+              <h3>Apakah ingin bergabung dengan Kami?</h3>  
+              <p>"Makanan bukan dinilai dari harganya melainkan cita rasa dan khasnya." </p>
+                <button class="btn transparent" id="sign-up-btn">Daftar</button>
+            </div>
+
+              <img src="ikon/sayur.png" class="image" alt="">
+        </div>
+
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Sudah Bergabung dengan Kami?</h3>  
+            <p>"Beda Tempat Lain Rasa yang pasti tetap Selera."</p>
+              <button class="btn transparent" id="sign-in-btn">Masuk</button>
+          </div>
+          
+              <img src="ikon/ikan.png" class="image" alt="">
+        </div>
+        </div>
+        <script src="LS.js"></script>
+      </body>
+  </html>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
