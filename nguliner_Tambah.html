@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport", content="widht=device-width", initial-scale1.0/>
     <link rel="stylesheet" href="nguliner_Tambah.css">
-    </head>
+    <script src="tambahmenu.js"></script>
+  </head>
     <body>
       <!-- Menu Navigasi -->
       <nav>
@@ -42,11 +43,11 @@
         <stan class="mn">Alamat Resto</stan>     : <textarea cols="30" rows="5" id="Alamat">Isikan Alamat Anda... </textarea>
         <br></br>
         <br>
-        <stan class="mn">Masukan Foto 1</stan>   : <input type ="file" name="Foto/Gambar" class="rt1"/> 
+        <stan class="mn">Masukan Foto 1</stan>   : <input type ="file" name="Foto/Gambar" id="rt1"/> 
         <br>  
-        <stan class="mn">Masukan Foto 2</stan>   : <input type ="file" name="Foto/Gambar" class="rt1"/>
+        <stan class="mn">Masukan Foto 2</stan>   : <input type ="file" name="Foto/Gambar" id="rt2"/>
         <br>
-        <stan class="mn">Masukan Foto 3</stan>   : <input type ="file" name="Foto/Gambar" class="rt1"/>
+        <stan class="mn">Masukan Foto 3</stan>   : <input type ="file" name="Foto/Gambar" id="rt3"/>
         <br>           
         <stan class="mn">Jadwal Buka</stan>      : <textarea cols="30" rows="5" id="jadwal">Isikan Jadwal Buka... </textarea>
         <br></br>
@@ -54,7 +55,8 @@
         <stan class="mn">Deskripsi Singkat</stan>: <textarea cols="30" rows="5" id="desk">Deskripsi singkat... </textarea>
         <br></br>
         <br>
-        <input id="tambah1" type="submit" value="Tambah" widht="10px" >
+        <input id="tambah1" type="button" value="Tambah" widht="10px" onclick="terimainput()">
+        <input id="tambah2" type='reset' value='Tambah Data Baru'>
       </pre>
    </fieldset>
    <fieldset id="kolom2">
@@ -69,9 +71,10 @@
         <stan class="mk">Deskripsi Makanan</stan>   : <textarea cols="30" rows="5" id="des">Isikan deskripsi makanan... </textarea>
         <br></br>
         <br>
-        <stan class="mk">Masukan Foto </stan>       : <input type ="file" name="Foto/Gambar" class="ft1"/>
+        <stan class="mk">Masukan Foto </stan>       : <input type ="file" name="Foto/Gambar" id="ft1"/>
         <br>
-        <input id="tambah2" type="submit" value="Tambah" widht="10px" >
+        <input id="tambah3" type="button" value="Tambah" widht="10px" onclick="terimainput()">
+        <input id="tambah4" type='reset' value='Tambah Data Baru'>
         </pre>
     </fieldset>
    </form>
