@@ -109,7 +109,7 @@ legend{
 #kolom1{
   width: 47% ;
   margin-left: 23px;
-  height:700px;
+  height:730px;
   float: left;
   margin-top: 25px;
   background-color: #821752;
@@ -157,7 +157,19 @@ legend{
   border-radius: 10px;
 }
 
-.rt1{
+#rt1{
+  background-color: #821752;
+  margin-top: -100px;
+  
+}
+
+#rt2{
+  background-color: #821752;
+  margin-top: -100px;
+  
+}
+
+#rt3{
   background-color: #821752;
   margin-top: -100px;
   
@@ -180,10 +192,19 @@ legend{
   background-color: #821752;
   color: white;
 }
+#tambah2{
+  width: 250px;
+  height: 25px;
+  float: right;
+  margin-right: 105px;
+  border-radius: 10px;
+  background-color: #821752;
+  color: white;
+}
 #kolom2{
   width: 47% ;
   margin-left: 5px;
-  height:700px;
+  height:730px;
   float: right;
   margin-right: 23px;
   margin-top: 25px;
@@ -215,11 +236,20 @@ legend{
   height:20px;
   border-radius: 10px;
 }
-.ft1{
+#ft1{
   background-color: #821752;
   
 }
-#tambah2{
+#tambah3{
+  width: 250px;
+  height: 25px;
+  float: right;
+  margin-right: 80px;
+  border-radius: 10px;
+  background-color: #821752;
+  color: white;
+}
+#tambah4{
   width: 250px;
   height: 25px;
   float: right;
