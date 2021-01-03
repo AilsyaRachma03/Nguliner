@@ -58,12 +58,12 @@ nav ul li a:hover{
 
 /* Responsive break point */
 @media screen and (max-width: 768px){
-  nav ul #kata .layer #Form  {
+  .body {
       width: 50%;
   }
 }
 @media screen and (max-width: 576px){
-  nav ul #kata .layer #Form {
+  .body {
       width: 60%;
   }
 }
@@ -84,7 +84,7 @@ nav ul li a:hover{
 
 /*------------------------ Bagian Kategori ---------------------------------------------*/
 #Kategori{
-  border: 3px : #821752; 
+  border: 3px #821752; 
   border-style: inherit;
   height: 30px;
   margin-top: -5px;
@@ -100,6 +100,7 @@ nav ul li a:hover{
 }
 
 #foto1{
+  margin-left: 20px;
 }
 
 #foto2{
@@ -116,9 +117,11 @@ nav ul li a:hover{
 
 #foto5{
   margin-left: 20px;
+
 }
 
 #foto6{
+  margin-left: 20px;
   margin-top: 30px;
 }
 
@@ -145,7 +148,7 @@ nav ul li a:hover{
  }
 
  #Rekom{
-  border: 3px : #821752; 
+  border: 3px #821752; 
   border-style: inherit;
   height: 30px;
   margin-top:-5px;

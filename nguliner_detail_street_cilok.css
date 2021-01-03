@@ -71,14 +71,14 @@
     color: white;
   }
   
-  Responsive break point
+  /* Responsive break point */
   @media screen and (max-width: 768px){
-    nav ul #kata .layer #Form  {
+    .body  {
         width: 50%;
     }
   }
   @media screen and (max-width: 576px){
-    nav ul #kata .layer #Form {
+    .body {
         width: 60%;
     }
   }
@@ -101,7 +101,7 @@
 
 #mamam{
     border-color:#821752;
-    width: 400px;
+    width: 375px;
     height: 300px;
     float: left;
     margin-left: 10px;
@@ -127,7 +127,7 @@
     margin-top: -50px;
 }
 #atas{
-    border: 3px : #821752; 
+    border: 3px #821752; 
     border-style: inherit;
     height: 30px;
     margin-top: -5px;
@@ -224,8 +224,8 @@
 
 #slideulasan{
     border-color: #821752;
-    width: 795px;
-    height: 500px;
+    width: 775px;
+    height: 400px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
@@ -258,7 +258,7 @@ tr #warung p{
 #ft{
     border-color: #821752;
     width: 515px;
-    height: 500px;
+    height: 400px;
     float: right; 
     margin-right: 10px;   
     background-color: #f8efd4;
@@ -332,7 +332,7 @@ tr #warung p{
    /* ini masukin komen */
 #fotkomen{
     border-color: #821752;
-    width: 795px;
+    width: 775px;
     height: 200px;
     float: right;
     margin-right: 10px;

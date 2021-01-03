@@ -71,12 +71,12 @@
   
   /* Responsive break point */
   @media screen and (max-width: 768px){
-    nav ul #kata .layer #Form  {
+    .body {
         width: 50%;
     }
   }
   @media screen and (max-width: 576px){
-    nav ul #kata .layer #Form {
+    .body {
         width: 60%;
     }
   }
