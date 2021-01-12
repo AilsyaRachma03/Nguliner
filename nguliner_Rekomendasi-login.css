@@ -46,17 +46,6 @@ nav ul li a:hover{
   color: white;
 }
 
-/* Responsive break point */
-@media screen and (max-width: 768px){
-  .body  {
-      width: 50%;
-  }
-}
-@media screen and (max-width: 576px){
-  .body {
-      width: 60%;
-  }
-}
 
 #kata{
     width: 18%;
@@ -65,16 +54,6 @@ nav ul li a:hover{
     align-items: center;
     position: absolute;
   }
-
-  /* position: relative; */
-  /* margin-top: 100px; */
-  /* margin-left: 550px; */
-  /* align-items: center; */
-  /* background-image: url("ikon/lobs.png"); */
-  /*position: absolute;*/
-  /*top: 100px;
-  left: 550px;
-}*/
 
 .layer{
   width: 100%;
@@ -149,5 +128,129 @@ nav ul li a:hover{
 #kirim:active{
   background-color: green;
   color: white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+  /* .body{
+    width: 50%;
+  } */
+  #Suka{
+    width: 200px;
+    height: 200px;
+    margin-left:0;
+    font-size: large;
+    background-image: url("ikon/bg.png");
+  }
+  #Rekomendasi{
+    margin: 30px 30px 30px 60px;
+  } 
+  #kata{
+    width: 18%;
+    margin-top: -75px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+  #copyr{
+    text-align: center;
+    margin-top: 70px;
+    font-size: x-small;
+  }
+  #rasa{
+    margin-left:50px;
+    float: left;
+    font-size: medium;
+  }
+  #rating{
+    margin-left: 30px;
+    margin-top: -38px;
+    margin-right: -100;
+    font-size: medium;
+  }
+  #tempat{
+    margin-left: -143px;
+    margin-top: 10px;
+    margin-right:0;
+    font-size: medium;
+  }
+  #kirim{
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #821752;
+    color: white;
+    font-size: medium;
+    font-family: 'Cambria';
+  }
+}
+@media screen and (max-width: 576px){
+  /* .body {
+      width: 60%;
+  } */
+  #Suka{
+
+    height: 160px;
+    margin-left:0;
+    font-size: small;
+    background-image:url("ikon/bg.png");
+  }
+  #Rekomendasi{
+    margin: 20px 20px 20px 20px
+  } 
+  #kata{
+    width: 20%;
+    margin-top: -60px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+  #copyr{
+    text-align: center;
+    margin-top: 70px;
+    font-size: x-small;
+  }
+  #rasa{
+    margin-left:10px;
+    float: left;
+    font-size: medium;
+  }
+  #rating{
+    margin-left: 30px;
+    margin-top: -38px;
+    margin-right: -100;
+    font-size: medium;
+  }
+  #tempat{
+    margin-left: -143px;
+    margin-top: 10px;
+    margin-right:0;
+    font-size: medium;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    justify-content: space-around;
+    height: 60px;
+    color:  #EDC988;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #kirim{
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #821752;
+    color: white;
+    font-size: medium;
+    font-family: 'Cambria';
+  }
 }
 

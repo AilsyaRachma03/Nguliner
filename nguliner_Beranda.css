@@ -46,17 +46,6 @@ nav ul li a:hover{
   color: white;
 }
 
-/* Responsive break point */
-@media screen and (max-width: 768px){
-  .body {
-      width: 50%;
-  }
-}
-@media screen and (max-width: 576px){
-  .body {
-      width: 60%;
-  }
-}
 
 #kata{
     width: 18%;
@@ -186,6 +175,39 @@ nav ul li a:hover{
 .rekom:active{
   color:red;
 }
-.rekom:hover{
-  color: white;
+
+.rekom:active{
+  color:white;
+}
+
+/* Responsive break point */
+@media screen and (max-width: 768px){
+  .body {
+      width: 50%;
+  }
+  #Rekom{
+    margin-top: 100%;
+  }
+  #kata{
+    width: 18%;
+    margin-top: -65px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 576px){
+  .body {
+      width: 60%;
+  }
+  #Rekom{
+    margin-top: 100%;
+  }
+  #kata{
+    width: 20%;
+    margin-top: -50px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
 }

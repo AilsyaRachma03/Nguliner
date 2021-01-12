@@ -45,18 +45,6 @@ nav ul li a:hover{
     color: white;
 }
 
-/* Responsive break point */
-@media screen and (max-width: 768px){
-    .body  {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 576px){
-    .body {
-        width: 60%;
-    }
-}
-
 #kata{
     width: 18%;
     margin-top: -100px;
@@ -207,5 +195,168 @@ footer {
     margin-top: 500px;
     margin-bottom: 50px;
  }
+ /* Responsive break point */
+@media screen and (max-width: 768px){
+    .body {
+        width: 50%;
+    }
+    #Rekom{
+      margin-top: 100%;
+    }
+    #kata{
+      width: 18%;
+      margin-top: -65px;
+      margin-left: 40%; 
+      align-items: center;
+      position: absolute;
+    }
+    #kolom1{
+        width: 47% ;
+        margin-left: 100px;
+        height:440px;
+        float: left;
+        margin-top: 25px;
+        background-color: #821752;
+        background-image: url("ikon/k1.png");
+        color: white;
+    }
+    #kolom2{
+        width: 47% ;
+        height:440px;
+        float: right;
+        margin-right: 105px;
+        margin-top: 25px;
+        background-color: #821752;
+        color: white;
+        background-image: url("ikon/k2.png"); 
+      }
+
+    #Kritik{
+        /* float: right; */
+        margin-right: 202px;
+        width: 300px;
+        border-radius: 5px;
+        margin-top:0px;
+   
+    }
+    #Saran{
+        /* float: right; */
+        margin-right: 202px;
+        width: 300px;
+        border-radius: 5px;
+        margin-top:0px;
+    }
+    footer {
+        text-align: center;
+        font-size: x-small;
+        margin-top: 150%;
+        margin-bottom: 50px;
+    }
+    #kirim:hover{
+        background-color: #821752;
+        color: white;
+    }
+    
+    #kirim:active{
+        background-color: green;
+        color: white;
+    }
+}
+  @media screen and (max-width: 576px){
+    .body {
+        width: 60%;
+    }
+    #Rekom{
+      margin-top: 100%;
+    }
+    #kata{
+      width: 20%;
+      margin-top: -50px;
+      margin-left: 40%; 
+      align-items: center;
+      position: absolute;
+    }
+    #kolom1{
+        width: 47% ;
+        margin-left: 50px;
+        height:440px;
+        float: left;
+        margin-top: 25px;
+        background-color: #821752;
+        background-image: url("ikon/k1.png");
+        color: white;
+    }
+    #kolom2{
+        width: 47% ;
+        height:440px;
+        float: right;
+        margin-right: 60px;
+        margin-top: 25px;
+        background-color: #821752;
+        color: white;
+        background-image: url("ikon/k2.png"); 
+    }
+    #Kritik{
+        /* float: right; */
+        margin-right: 100px;
+        width: 300px;
+        border-radius: 5px;
+        margin-top:0px;
+    }
+    #Saran{
+        /* float: right; */
+        margin-right: 100px;
+        width: 300px;
+        border-radius: 5px;
+        margin-top:0px;
+    }
+    #foto1{
+        float: left;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    #Alamat{
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #foto2{
+        float: left;
+        margin-left: 30px;
+    }
+    #Nomor{
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #foto3{
+        float: left;
+        margin-left: 30px;
+    }
+    #Imel{
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #kirim:hover{
+        background-color: #821752;
+        color: white;
+    }
+    
+    #kirim:active{
+        background-color: green;
+        color: white;
+    }
+    footer {
+        text-align: center;
+        font-size: x-small;
+        margin-top: 170%;
+        margin-bottom: 50px;
+    }
+  }
 
 
