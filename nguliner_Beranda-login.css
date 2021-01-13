@@ -178,7 +178,7 @@ nav ul li a:hover{
   }
   #kata{
     width: 18%;
-    margin-top: -60px;
+    margin-top: -65px;
     margin-left: 40%; 
     align-items: center;
     position: absolute;
@@ -186,7 +186,42 @@ nav ul li a:hover{
 }
 @media screen and (max-width: 576px){
   .body {
-      width: 60%;
+      width: 30%;
+  }
+  #Rekom{
+    margin-top: 100%;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: medium;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+  }
+  #kata{
+    width: 20%;
+    margin-top: -50px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 471px){
+  .body {
+      width: 20%;
   }
   #Rekom{
     margin-top: 100%;
@@ -195,6 +230,33 @@ nav ul li a:hover{
     width: 20%;
     margin-top: -50px;
     margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: small;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+  }
+  #kata{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 35%; 
     align-items: center;
     position: absolute;
   }

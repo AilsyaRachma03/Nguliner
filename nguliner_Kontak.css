@@ -122,12 +122,11 @@ legend{
       margin-top: 10px;
       justify-content: center;
       margin-left: 50px;
-      margin-right: 256px ;
+      /* margin-right: 256px ; */
       width: 70px;
       height: 25px;
       margin-right: 212px;
-      background-color: #EDC988;
-     
+      background-color: #EDC988;  
   }
 
 #kirim:hover{
@@ -202,13 +201,33 @@ footer {
     #Rekom{
       margin-top: 100%;
     }
-    #kata{
-      width: 18%;
-      margin-top: -65px;
-      margin-left: 40%; 
-      align-items: center;
-      position: absolute;
-    }
+    nav{
+        display: flex;
+        background-color: #821752;
+        /* justify-content: space-around; */
+        height: 70px;
+        color:  #EDC988;
+        align-items: center;
+      }
+      nav ul{
+        display: flex;
+        list-style: none;
+        width: 50%;
+        /* background-color:  #EDC988; */
+        justify-content: space-between;
+        font-size: medium;
+      }
+      nav .logo{
+        font-family: verdana;
+        letter-spacing: 2px;
+      }
+      #kata{
+        width: 20%;
+        margin-top: -50px;
+        margin-left: 40%; 
+        align-items: center;
+        position: absolute;
+      }
     #kolom1{
         width: 47% ;
         margin-left: 100px;
@@ -262,11 +281,44 @@ footer {
     }
 }
   @media screen and (max-width: 576px){
-    .body {
+    /* .body {
         width: 60%;
     }
     #Rekom{
       margin-top: 100%;
+    }
+    #kata{
+      width: 20%;
+      margin-top: -50px;
+      margin-left: 40%; 
+      align-items: center;
+      position: absolute;
+    } */
+    .body {
+        width: 30%;
+    }
+    #Rekom{
+      margin-top: 100%;
+    }
+    nav{
+      display: flex;
+      background-color: #821752;
+      /* justify-content: space-around; */
+      height: 70px;
+      color:  #EDC988;
+      align-items: center;
+    }
+    nav ul{
+      display: flex;
+      list-style: none;
+      width: 50%;
+      /* background-color:  #EDC988; */
+      justify-content: space-between;
+      font-size: medium;
+    }
+    nav .logo{
+      font-family: verdana;
+      letter-spacing: 2px;
     }
     #kata{
       width: 20%;
@@ -356,4 +408,180 @@ footer {
         margin-top: 170%;
         margin-bottom: 50px;
     }
-  }
+}
+@media screen and (max-width: 471px){
+    .body {
+        width: 20%;
+    }
+    #Rekom{
+      margin-top: 100%;
+    }
+    #kata{
+      width: 20%;
+      margin-top: -50px;
+      margin-left: 40%; 
+      align-items: center;
+      position: absolute;
+    }
+    nav{
+      display: flex;
+      background-color: #821752;
+      /* justify-content: space-around; */
+      height: 70px;
+      color:  #EDC988;
+      align-items: center;
+    }
+    nav ul{
+      display: flex;
+      list-style: none;
+      width: 50%;
+      /* background-color:  #EDC988; */
+      justify-content: space-between;
+      font-size: small;
+    }
+    nav .logo{
+      font-family: verdana;
+      letter-spacing: 2px;
+    }
+    #kata{
+      width: 30%;
+      margin-top: -50px;
+      margin-left: 35%; 
+      align-items: center;
+      position: absolute;
+    }
+    #kolom1{
+        width: 0% ;
+        margin-left: 55px;
+        height:500px;
+        float: left;
+        margin-top: 25px;
+        background-color: #821752;
+        background-image: url("ikon/k1.png");
+        color: white;
+    }
+    #kolom2{
+        width: 0% ;
+        height:440px;
+        /* float: right; */
+        margin-right: 5px;
+        margin-left:0px;
+        margin-top: 25px;
+        background-color: #821752;
+        color: white;
+        background-image: url("ikon/k2.png"); 
+    }
+    #Nama{
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 2px;
+    }
+    #Email{
+        width: 250px;
+        height : 30px;
+        border-radius: 5px;
+    }
+    #Kritik{
+        /* float: right; */
+        margin-right: 50px;
+        width: 250px;
+        border-radius: 5px;
+        margin-top:0px;
+    }
+    #Saran{
+        /* float: right; */
+        margin-right: 50px;
+        width: 250px;
+        border-radius: 5px;
+        margin-top:0px;
+    }
+    #foto1{
+        float: left;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    #Alamat{
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #foto2{
+        float: left;
+        margin-left: 0px;
+    }
+    #Nomor{
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #foto3{
+        float: left;
+        margin-left: 0px;
+    }
+    #Imel{
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #kirim{
+        float: right;
+        margin-top: 10px;
+        justify-content: center;
+        width: 70px;
+        height: 25px;
+        margin-right: 100px;
+        background-color: #EDC988;  
+    }
+    #kirim:hover{
+        background-color: #821752;
+        color: white;
+    }
+    
+    #kirim:active{
+        background-color: green;
+        color: white;
+    }
+    #foto1{
+        float: left;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    #Alamat{
+        margin-top: 100px;
+        /* margin-left: 100px; */
+        margin-right: 50px;
+        width: 305px;
+        height: 75px;
+    }
+    #foto2{
+        float: left;
+        margin-left: 30px;
+    }
+    #Nomor{
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    #foto3{
+        float: left;
+        margin-left: 30px;
+    }
+    #Imel{
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 305px;
+        height: 40px;
+    }
+    footer {
+        text-align: center;
+        font-size: x-small;
+        margin-top: 170%;
+        margin-bottom: 10px;
+    }
+}

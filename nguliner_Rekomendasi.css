@@ -200,8 +200,40 @@ nav ul li a:hover{
   /* .body {
       width: 60%;
   } */
+  .body {
+      width: 30%;
+  }
+  #Rekom{
+    margin-top: 100%;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: medium;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+  }
+  #kata{
+    width: 20%;
+    margin-top: -50px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
   #Suka{
-
     height: 160px;
     margin-left:0;
     font-size: small;
@@ -210,13 +242,6 @@ nav ul li a:hover{
   #Rekomendasi{
     margin: 20px 20px 20px 20px
   } 
-  #kata{
-    width: 20%;
-    margin-top: -60px;
-    margin-left: 40%; 
-    align-items: center;
-    position: absolute;
-  }
   #copyr{
     text-align: center;
     margin-top: 70px;
@@ -239,21 +264,96 @@ nav ul li a:hover{
     margin-right:0;
     font-size: medium;
   }
-  nav{
-    display: flex;
-    background-color: #821752;
-    justify-content: space-around;
-    height: 60px;
-    color:  #EDC988;
-    align-items: center;
-    width: 100%;
-  }
-  
   #kirim{
     margin-right: 100px;
     margin-left: 80px;
     margin-top: 50px;
     width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #821752;
+    color: white;
+    font-size: medium;
+    font-family: 'Cambria';
+  }
+}
+@media screen and (max-width: 471px){
+  .body {
+      width: 20%;
+  }
+  #Rekom{
+    margin-top: 100%;
+  }
+  #kata{
+    width: 20%;
+    margin-top: -50px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: small;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+  }
+  #kata{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 35%; 
+    align-items: center;
+    position: absolute;
+  }
+  #Suka{
+    height: 300px;
+    margin-left:30px;
+    font-size: small;
+    background-image:url("ikon/bg.png");
+  }
+  #Rekomendasi{
+    margin: 20px 10px 10px 10px
+  } 
+  #copyr{
+    text-align: center;
+    margin-top: 70px;
+    font-size: small;
+  }
+  #rasa{
+    margin-left:10px;
+    float: left;
+    font-size: medium;
+  }
+  #rating{
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: -100;
+    font-size: medium;
+  }
+  #tempat{
+    margin-left: -143px;
+    margin-top: 50px;
+    margin-right:0;
+    font-size: medium;
+  }
+  #kirim{
+    margin-right: 100px;
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 200px;
     height: 30px;
     border-radius: 10px;
     background-color: #821752;

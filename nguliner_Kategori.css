@@ -190,10 +190,37 @@ nav ul li a:hover{
 }
 @media screen and (max-width: 576px){
   .body {
-      width: 60%;
+    width: 30%;
   }
   #Rekom{
     margin-top: 100%;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    font-size: medium;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+  }
+  #lup{
+    display:none;
+    /* margin-top: 9px;
+    margin-left: 5px; */
+   }
+  .search-txt{
+    display:none;
   }
   #kata{
     width: 20%;
@@ -210,5 +237,109 @@ nav ul li a:hover{
   #foto2{
     margin-left: 20px;
     margin-bottom: 25px;
+  }
+  #copyr{
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 20px;
+    font-size: x-small;
+   }
+}
+@media screen and (max-width: 471px){
+  .body {
+      width: 20%;
+  }
+  #Rekom{
+    margin-top: 100%;
+  }
+  #kata{
+    width: 20%;
+    margin-top: -50px;
+    margin-left: 40%; 
+    align-items: center;
+    position: absolute;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: small;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+  }
+  #kata{
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 35%; 
+    align-items: center;
+    position: absolute;
+  }
+  #copyr{
+    text-align: center;
+    margin-top: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: x-small;
+   }
+  #foto1{
+    margin-left: 20px;
+    width: 100px;
+    height:100px
+  }
+  #foto2{
+    margin-left: 20px;
+    width: 100px;
+    height:100px
+  }
+  #foto3{
+    margin-left: 20px;
+    width: 100px;
+    height:100px
+  }
+  #foto4{
+    margin-left: 20px;
+    width: 100px;
+    height:100px
+  }
+  #foto5{
+    margin-left: 20px;
+    width: 100px;
+    height:100px
+  }
+  #foto6{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height:100px
+  }
+  #foto7{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height:100px
+  }
+  #foto8{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height:100px
+  }
+  #foto9{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height:100px
   }
 }
