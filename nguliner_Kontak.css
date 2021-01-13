@@ -501,9 +501,8 @@ footer {
         margin-left:-30px;
     }
     #foto1{
-        /* float: left; */
         margin-top: 100px;
-        margin-left: -30px;
+        margin-left: 20px;
     }
     #Alamat{
         margin-top: 100px;
@@ -513,9 +512,8 @@ footer {
         height: 40px;
     }
     #foto2{
-        /* float: left; */
         margin-left: 0px;
-        margin-left: -30px;
+        margin-left: 20px;
     }
     #Nomor{
         margin-left: 100px;
@@ -524,9 +522,8 @@ footer {
         height: 40px;
     }
     #foto3{
-        /* float: left; */
         margin-left: 0px;
-        margin-left: -30px;
+        margin-left: 20px;
     }
     #Imel{
         margin-left: 100px;
@@ -551,38 +548,6 @@ footer {
     #kirim:active{
         background-color: green;
         color: white;
-    }
-    #foto1{
-        float: left;
-        margin-top: 100px;
-        margin-left: 30px;
-    }
-    #Alamat{
-        margin-top: 100px;
-        /* margin-left: 100px; */
-        margin-right: 50px;
-        width: 305px;
-        height: 75px;
-    }
-    #foto2{
-        float: left;
-        margin-left: 30px;
-    }
-    #Nomor{
-        margin-left: 100px;
-        margin-right: 50px;
-        width: 305px;
-        height: 40px;
-    }
-    #foto3{
-        float: left;
-        margin-left: 30px;
-    }
-    #Imel{
-        margin-left: 100px;
-        margin-right: 50px;
-        width: 305px;
-        height: 40px;
     }
     footer {
         text-align: center;
@@ -682,40 +647,6 @@ footer {
         margin-top:0px;
         margin-left:-30px;
     }
-    #foto1{
-        /* float: left; */
-        margin-top: 50px;
-        margin-left: -30px;
-    }
-    #Alamat{
-        margin-top: 100px;
-        margin-left: 100px;
-        margin-right: 50px;
-        width: 305px;
-        height: 40px;
-    }
-    #foto2{
-        /* float: left; */
-        margin-left: 0px;
-        margin-left: -30px;
-    }
-    #Nomor{
-        margin-left: 100px;
-        margin-right: 50px;
-        width: 305px;
-        height: 40px;
-    }
-    #foto3{
-        /* float: left; */
-        margin-left: 0px;
-        margin-left: -30px;
-    }
-    #Imel{
-        margin-left: 100px;
-        margin-right: 50px;
-        width: 305px;
-        height: 40px;
-    }
     #kirim{
         float: right;
         margin-top: 10px;
@@ -736,9 +667,6 @@ footer {
     }
     #foto1{
         display:none;
-        /* float: left;
-        margin-top: 100px;
-        margin-left: 30px; */
     }
     #Alamat{
         margin-top: 100px;
@@ -749,8 +677,6 @@ footer {
     }
     #foto2{
         display:none;
-        /* float: left;
-        margin-left: 30px; */
     }
     #Nomor{
         margin-left: 30px;
@@ -760,8 +686,6 @@ footer {
     }
     #foto3{
         display:none;
-        /* float: left;
-        margin-left: 30px; */
     }
     #Imel{
         margin-left: 30px;
