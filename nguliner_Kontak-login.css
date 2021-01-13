@@ -463,10 +463,10 @@ footer {
         color: white;
     }
     #kolom2{
-        width: 0% ;
-        height:440px;
+        width: 0;
+        height:400px;
         /* float: right; */
-        margin-right: 5px;
+        margin-right: 40px;
         margin-left:0px;
         margin-top: 25px;
         background-color: #821752;
@@ -503,32 +503,29 @@ footer {
         margin-left:-30px;
     }
     #foto1{
-        margin-top: 100px;
-        margin-left: 20px;
+        display:none;
     }
     #Alamat{
         margin-top: 100px;
-        margin-left: 100px;
+        margin-left: 30px;
         margin-right: 50px;
         width: 305px;
         height: 40px;
     }
     #foto2{
-        margin-left: 0px;
-        margin-left: 20px;
+        display:none;
     }
     #Nomor{
-        margin-left: 100px;
+        margin-left: 30px;
         margin-right: 50px;
         width: 305px;
         height: 40px;
     }
     #foto3{
-        margin-left: 0px;
-        margin-left: 20px;
+        display:none;
     }
     #Imel{
-        margin-left: 100px;
+        margin-left: 30px;
         margin-right: 50px;
         width: 305px;
         height: 40px;
@@ -554,7 +551,7 @@ footer {
     footer {
         text-align: center;
         font-size: x-small;
-        margin-top: 170%;
+        margin-top: 250%;
         margin-bottom: 10px;
     }
 }
