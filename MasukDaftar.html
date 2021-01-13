@@ -85,15 +85,15 @@
               </div>
               <div class="input-field">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Password" id="pssw">
-                <!-- Check Pw -->
-                <input type="checkbox" class="form-checkbox">
-                <p id=show>Show password</p>
+                <input type="password" placeholder="Password" class="pssw">
+<!-- Check Pw -->
+                <input type="checkbox" class="form-check">
+                <p id=shows>Show password</p>
               </div>
 <!-- JQueryCheck Password -->
               <script type="text/javascript">
                 $(document).ready(function(){		
-                  $('.form-checkbox').click(function(){
+                  $('.form-check').click(function(){
                     if($(this).is(':checked')){
                       $('.pssw').attr('type','text');
                     }else{

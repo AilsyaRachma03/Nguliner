@@ -163,6 +163,18 @@ form.sign-up-form{
     font-size:x-small;
     display: flex;
 }
+.form-check{
+    margin-left:25px;
+    margin-top: 8px;
+    display:flex;
+    justify-content: right;
+}
+#shows{
+    margin-left:0px;
+    margin-top:7px;
+    font-size:x-small;
+    display:flex;
+}
 .btn:hover{
     background-color: #F9A826;
 }
