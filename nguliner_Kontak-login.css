@@ -466,7 +466,7 @@ footer {
         width: 0% ;
         height:440px;
         /* float: right; */
-        margin-right:3px;
+        margin-right: 5px;
         margin-left:0px;
         margin-top: 25px;
         background-color: #821752;
@@ -478,30 +478,34 @@ footer {
         height: 30px;
         border-radius: 5px;
         margin-top: 2px;
+        margin-left:-30px;
     }
     #Email{
         width: 250px;
         height : 30px;
         border-radius: 5px;
+        margin-left:-30px;
     }
     #Kritik{
         /* float: right; */
-        margin-right: 50px;
-        width: 250px;
+        margin-right:70px;
+        width: 200px;
         border-radius: 5px;
         margin-top:0px;
+        margin-left:-30px;
     }
     #Saran{
         /* float: right; */
-        margin-right: 50px;
-        width: 250px;
+        margin-right:70px;
+        width: 200px;
         border-radius: 5px;
         margin-top:0px;
+        margin-left:-30px;
     }
     #foto1{
-        float: left;
+        /* float: left; */
         margin-top: 100px;
-        margin-left: 0px;
+        margin-left: -30px;
     }
     #Alamat{
         margin-top: 100px;
@@ -511,8 +515,9 @@ footer {
         height: 40px;
     }
     #foto2{
-        float: left;
+        /* float: left; */
         margin-left: 0px;
+        margin-left: -30px;
     }
     #Nomor{
         margin-left: 100px;
@@ -521,8 +526,9 @@ footer {
         height: 40px;
     }
     #foto3{
-        float: left;
+        /* float: left; */
         margin-left: 0px;
+        margin-left: -30px;
     }
     #Imel{
         margin-left: 100px;
@@ -587,6 +593,5 @@ footer {
         margin-bottom: 10px;
     }
 }
-
 
 

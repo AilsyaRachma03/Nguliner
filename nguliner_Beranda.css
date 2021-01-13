@@ -248,7 +248,7 @@ nav ul li a:hover{
   nav{
     display: flex;
     background-color: #821752;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     height: 70px;
     color:  #EDC988;
     align-items: center;
