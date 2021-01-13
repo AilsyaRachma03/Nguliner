@@ -409,7 +409,7 @@ footer {
         margin-bottom: 50px;
     }
 }
-@media screen and (max-width: 471px){
+@media screen and (max-width: 300px){
     .body {
         width: 20%;
     }
