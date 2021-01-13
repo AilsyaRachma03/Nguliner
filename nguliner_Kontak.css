@@ -554,76 +554,65 @@ footer {
     }
 }
 @media screen and (max-width: 300px){
-    .body {
-        width: 20%;
-    }
-    #Rekom{
-      margin-top: 100%;
-    }
-    #kata{
-      width: 20%;
-      margin-top: -50px;
-      margin-left: 40%; 
-      align-items: center;
-      position: absolute;
-    }
     nav{
-      display: flex;
-      background-color: #821752;
-      /* justify-content: space-around; */
-      height: 70px;
-      color:  #EDC988;
-      align-items: center;
-    }
-    nav ul{
-      display: flex;
-      list-style: none;
-      width: 50%;
-      /* background-color:  #EDC988; */
-      justify-content: space-between;
-      font-size: small;
-    }
-    nav .logo{
-      font-family: verdana;
-      letter-spacing: 2px;
+        display: flex;
+        background-color: #821752;
+        /* justify-content: space-around; */
+        height: 70px;
+        color:  #EDC988;
+        align-items: center;
+      }
+      nav ul{
+        display: flex;
+        list-style: none;
+        width: 50%;
+        /* background-color:  #EDC988; */
+        justify-content: space-between;
+        font-size: xx-small;
+      }
+      nav .logo{
+        font-family: verdana;
+        letter-spacing: 2px;
+        font-size:small;
     }
     #kata{
-      width: 30%;
-      margin-top: -50px;
-      margin-left: 35%; 
-      align-items: center;
-      position: absolute;
+        width: 25%;
+        margin-top: -30px;
+        margin-left: 35%; 
+        align-items: center;
+        position: absolute;
     }
     #kolom1{
         width: 0% ;
-        margin-left: 45px;
-        height:500px;
+        margin-left:22px;
+        height:430px;
         float: left;
         margin-top: 25px;
         background-color: #821752;
         background-image: url("ikon/k1.png");
         color: white;
+        font-size: small;
     }
     #kolom2{
         width: 0% ;
         height:400px;
-        /* float: right; */
-        margin-right: 20px;
+        margin-right:20px;
         margin-left:5px;
-        margin-top: 25px;
+        margin-top: 20px;
         background-color: #821752;
         color: white;
         background-image: url("ikon/k2.png"); 
+        font-size: small;
     }
     #Nama{
-        width: 250px;
+        width: 200px;
         height: 30px;
         border-radius: 5px;
         margin-top: 2px;
         margin-left:-30px;
     }
     #Email{
-        width: 250px;
+        width: 200px;
         height : 30px;
         border-radius: 5px;
         margin-left:-30px;
@@ -631,7 +620,7 @@ footer {
     #Kritik{
         /* float: right; */
         margin-right:70px;
-        width: 200px;
+        width: 150px;
         border-radius: 5px;
         margin-top:0px;
         margin-left:-30px;
@@ -639,7 +628,7 @@ footer {
     #Saran{
         /* float: right; */
         margin-right:70px;
-        width: 200px;
+        width: 150px;
         border-radius: 5px;
         margin-top:0px;
         margin-left:-30px;
@@ -669,8 +658,9 @@ footer {
         margin-top: 100px;
         margin-left: 30px;
         margin-right: 20px;
-        width: 305px;
+        width: 200px;
         height: 75px;
+        font-size: small;
     }
     #foto2{
         display:none;
@@ -678,8 +668,9 @@ footer {
     #Nomor{
         margin-left: 30px;
         margin-right: 20px;
-        width: 305px;
+        width:200px;
         height: 40px;
+        font-size: small;
     }
     #foto3{
         display:none;
@@ -687,13 +678,14 @@ footer {
     #Imel{
         margin-left: 30px;
         margin-right: 20px;
-        width: 305px;
+        width:200px;
         height: 40px;
+        font-size: small;
     }
     footer {
         text-align: center;
         font-size: x-small;
-        margin-top: 170%;
+        margin-top: 300%;
         margin-bottom: 10px;
     }
 }

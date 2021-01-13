@@ -343,3 +343,116 @@ nav ul li a:hover{
     height:100px
   }
 }
+@media screen and (max-width: 300px){
+  .body {
+      width: 20%;
+  }
+  #Rekom{
+    margin-top:20%;
+    width: 100%;
+    font-size: small;
+  }
+  .rekom{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+    color:  #EDC988;
+    text-decoration: solid;
+    font-size: small;
+  }  
+  #tanya{
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: small;
+  }
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: xx-small;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+    font-size:small;
+  }
+  #kata{
+    width: 25%;
+    margin-top: -30px;
+    margin-left: 35%; 
+    align-items: center;
+    position: absolute;
+  }
+  #copyr{
+    text-align: center;
+    margin-top: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: x-small;
+   }
+  #foto1{
+    margin-top:-10px;
+    margin-left:10px;
+    width: 80px;
+    height:80px
+  }
+  #foto2{
+    margin-left:10px;
+    margin-top: -15px;
+    width: 80px;
+    height:80px
+  }
+  #foto3{
+    margin-left:10px;
+    margin-top:-15px;
+    width: 80px;
+    height:80px
+  }
+  #foto4{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 80px;
+    height:80px
+  }
+  #foto5{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 80px;
+    height:80px
+  }
+  #foto6{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 80px;
+    height:80px
+  }
+  #foto7{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 80px;
+    height:80px
+  }
+  #foto8{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 80px;
+    height:80px
+  }
+  #foto9{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 80px;
+    height:80px
+  }
+}
