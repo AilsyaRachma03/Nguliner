@@ -452,7 +452,7 @@ footer {
     }
     #kolom1{
         width: 0% ;
-        margin-left: 55px;
+        margin-left: 30px;
         height:500px;
         float: left;
         margin-top: 25px;
@@ -462,10 +462,10 @@ footer {
     }
     #kolom2{
         width: 0% ;
-        height:440px;
+        height:400px;
         /* float: right; */
         margin-right: 5px;
-        margin-left:0px;
+        margin-left:5px;
         margin-top: 25px;
         background-color: #821752;
         color: white;
@@ -502,7 +502,7 @@ footer {
     }
     #foto1{
         /* float: left; */
-        margin-top: 100px;
+        margin-top: 50px;
         margin-left: -30px;
     }
     #Alamat{
