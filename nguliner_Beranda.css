@@ -273,3 +273,47 @@ nav ul li a:hover{
     position: absolute;
   }
 }
+@media screen and (max-width:300px){
+  nav{
+    display: flex;
+    background-color: #821752;
+    /* justify-content: space-around; */
+    height: 70px;
+    color:  #EDC988;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    /* background-color:  #EDC988; */
+    justify-content: space-between;
+    font-size: xx-small;
+  }
+  nav .logo{
+    font-family: verdana;
+    letter-spacing: 2px;
+    font-size:small;
+  }
+  #kata{
+    width: 25%;
+    margin-top: -30px;
+    margin-left: 35%; 
+    align-items: center;
+    position: absolute;
+  }
+  .rekom{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+    color:  #EDC988;
+    text-decoration: solid;
+    font-size: small;
+  }  
+  #tanya{
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: small;
+  }
+}
