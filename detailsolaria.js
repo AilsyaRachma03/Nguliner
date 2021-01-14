@@ -5,6 +5,6 @@ function terimainput(){
         alert("Ada Data Yang Kosong Masukan Ulang"); 
         return;
     }else{
-        alert("Data Berhasil disimpan");
+        alert("Data Berhasil dikirim");
     }
 }
