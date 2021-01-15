@@ -5,7 +5,7 @@ function terimainput(){
     var d=document.getElementById('Saran').value;
 
     if(!a|| !b|| !c|| !d){
-        alert("Kritik dan saranyang anda masukan Kosong, Masukan Ulang"); 
+        alert("Kritik dan saran yang anda masukan Kosong, Masukan Ulang"); 
         return;
     }else{
         alert("Data Berhasil Dikirm");
